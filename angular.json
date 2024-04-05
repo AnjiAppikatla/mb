@@ -37,9 +37,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "src/styles.scss",
+              {
+                "input": "node_modules/bootstrap/dist/css/bootstrap.min.css",
+                "inject": true
+              }
             ],
-            "scripts": []
+            "scripts": [
+                {
+                  "input": "node_modules/bootstrap/dist/js/bootstrap.min.js",
+                  "inject": true
+                }
+            ]
           },
           "configurations": {
             "production": {
@@ -97,12 +107,25 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "src/styles.scss",
+              {
+                "input": "node_modules/bootstrap/dist/css/bootstrap.min.css",
+                "inject": true
+              }
             ],
-            "scripts": []
+            "scripts": [
+              {
+                "input": "node_modules/bootstrap/dist/js/bootstrap.min.js",
+                "inject": true
+              }
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
