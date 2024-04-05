@@ -48,6 +48,10 @@
                 {
                   "input": "node_modules/bootstrap/dist/js/bootstrap.min.js",
                   "inject": true
+                },
+                {
+                  "input": "node_modules/jquery/dist/jquery.min.js",
+                  "inject": true
                 }
             ]
           },
@@ -118,7 +122,12 @@
               {
                 "input": "node_modules/bootstrap/dist/js/bootstrap.min.js",
                 "inject": true
+              },
+              {
+                "input": "node_modules/jquery/dist/jquery.min.js",
+                "inject": true
               }
+
             ]
           }
         }
